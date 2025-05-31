@@ -5,7 +5,6 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://jpark6.github.io',
-  base: 'astro-blog',
 	integrations: [
 		starlight({
 			title: 'My Docs',
